@@ -27,3 +27,28 @@ p {
     width: 288px;
     height: 126px;
 }
+
+button {
+    width: 288px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #1A2236;
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #1A2236;
+    color: #1A2236;
+}
+
+button:active {
+    border: 2px solid #1A2236;
+}
