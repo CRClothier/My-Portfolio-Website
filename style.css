@@ -9,10 +9,11 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   width: 220px;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -37,16 +38,16 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   background-color: #1a2236;
-  border-width: 0px;
+  border-width: 0;
   margin-bottom: 33px;
 }
 
 button:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #1a2236;
   color: #1a2236;
 }
@@ -73,12 +74,8 @@ nav {
 }
 
 section {
-  width: 288;
+  width: 288px;
   align-self: center;
-}
-
-h1 {
-  margin-bottom: 20px;
 }
 
 .header-image {
