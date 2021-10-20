@@ -52,3 +52,41 @@ button:hover {
 button:active {
     border: 2px solid #1A2236;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.hamburger {
+    margin-top: 19px;
+    margin-right: 16px;
+}
+
+section {
+    width: 288;
+    align-self: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+button {
+    margin-bottom: 33px;
+}
+
+.header-image {
+    width: 100%;
+}
