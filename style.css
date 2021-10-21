@@ -25,13 +25,12 @@ p.introduction {
   line-height: 21px;
   letter-spacing: -0.1%;
   text-align: left;
-  width: 288px;
-  height: 126px;
+  width: 100%;
   margin-bottom: 40px;
 }
 
 button.primary-dark {
-  width: 288px;
+  width: 100%;
   height: 50px;
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -164,4 +163,61 @@ div.skills-list {
 main {
   display: grid;
   grid-template-rows: 6;
+}
+ul.categories {
+  padding: 0;
+}
+
+li.lists {
+  color: #fff;
+  margin: 16px;
+  padding: 50px;
+  list-style: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+section.about-information {
+  padding: 16px;
+}
+
+h2.about-title {
+  padding: 0;
+  margin-bottom: 20px;
+  margin-top: 56px;
+}
+
+#languages {
+  background-color: #1c528a;
+  background-image: url("./img/languages.png");
+}
+
+#frameworks {
+  background-color: #e2505c;
+  background-image: url("./img/frameworks.png");
+}
+
+#super {
+  background-color:  #febf52;
+  background-image: url("./img/ic_skills.svg")
+  ;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  list-style-type: disc;
+}
+
+ul.sublist {
+  padding: 22px;
 }

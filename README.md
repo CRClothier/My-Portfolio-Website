@@ -1,7 +1,7 @@
 # My Portfolio Website
 A portfolio of all the projects I will create during my time as a student at Microverse.  We will be developing the website over a series of checkpoints and then adding our future projects:
 - Project 1: Setup and mobile version skeleton ✅
-- Project 2: Mobile version
+- Project 2: Mobile version ✅
 - Project 3: Contact form 
 - Project 4: Desktop version
 - Project 5: Application deploy
@@ -27,14 +27,14 @@ To get a local copy up and running follow these simple example steps:
 ### Prerequisites
 
 Basic knowledge of:
--HTML & CSS
--Git & Github
+- HTML & CSS
+- Git & Github
 
 ### Setup
 
--Create a directory on your local computer.
--Use git init in that directory.
--Clone this repository into your folder.
+- Create a directory on your local computer.
+- Use git init in that directory.
+- Clone this repository into your folder.
 
 ### Usage
 
@@ -57,7 +57,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to Microverse for their README template.
-- Thanks to my learing partners for unblocking me time and time again!
+- Thanks to my learning partners for unblocking me time and time again!
 
 ## 📝 License
 
