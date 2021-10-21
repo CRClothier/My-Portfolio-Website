@@ -30,7 +30,7 @@ p.introduction {
   margin-bottom: 40px;
 }
 
-button {
+button.primary-dark {
   width: 288px;
   height: 50px;
   font-family: Poppins, sans-serif;
@@ -46,13 +46,13 @@ button {
   margin-bottom: 33px;
 }
 
-button:hover {
+button.primary-dark:hover, button.project-button:hover{
   background-color: #fff;
   border: 1px solid #1a2236;
   color: #1a2236;
 }
 
-button:active {
+button.primary-dark:active {
   border: 2px solid #1a2236;
 }
 
@@ -83,4 +83,58 @@ nav {
   height: 300px;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.project-image {
+  width: 100%;
+  display: block;
+}
+
+h3 {
+color: #fff;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+}
+
+.project-description {
+  background-color: #1a2236;
+  padding: 20px;
+}
+
+button.project-button {
+  color: #fff;
+  height: 44px;
+  width: 178px;
+  background-color: #1a2236;
+  border: 1px solid #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+p.skill {
+  padding: 6px 10px 6px 10px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 8px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1a2236;
+  background-color: #98dede;
+  width: fit-content;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display: inline;
 }
