@@ -16,7 +16,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-p {
+p.introduction {
   color: #1a2236;
   font-family: Poppins, sans-serif;
   font-size: 14px;
