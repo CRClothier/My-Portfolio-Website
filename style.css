@@ -126,7 +126,7 @@ button.project-button {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -139,12 +139,12 @@ button.project-button:hover {
 
 p.skill {
   padding: 6px 10px 6px 10px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 300;
   line-height: 8px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #1a2236;
   background-color: #98dede;
@@ -164,8 +164,9 @@ div.skills-list {
 
 main {
   display: grid;
-  grid-template-rows: 6;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
 ul.categories {
   padding: 0;
 }
@@ -175,7 +176,7 @@ li.lists {
   margin: 16px;
   padding: 50px;
   list-style: none;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
@@ -207,9 +208,8 @@ h2.about-title {
 }
 
 #super {
-  background-color:  #febf52;
-  background-image: url("./img/ic_skills.svg")
-  ;
+  background-color: #febf52;
+  background-image: url("./img/ic_skills.svg");
 }
 
 li {
