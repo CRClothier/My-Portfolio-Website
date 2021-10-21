@@ -88,6 +88,7 @@ nav {
 .project-image {
   width: 100%;
   display: block;
+  margin: -3px;
 }
 
 h3 {
@@ -105,6 +106,8 @@ padding-bottom: 20px;
 .project-description {
   background-color: #1a2236;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 button.project-button {
@@ -136,5 +139,13 @@ p.skill {
   width: fit-content;
   margin-right: 10px;
   margin-bottom: 20px;
-  display: inline;
+}
+
+section.project {
+  display: flex;
+  flex-direction: column;
+}
+
+div.skills-list {
+  display: flex;
 }
