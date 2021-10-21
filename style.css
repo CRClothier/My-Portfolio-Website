@@ -69,15 +69,18 @@ nav {
 }
 
 .hamburger {
-  margin-top: 19px;
   margin-right: 16px;
 }
 
-section {
+.intro {
   width: 288px;
   align-self: center;
 }
 
 .header-image {
   width: 100%;
+  background-image: url("./img/image_geometry_2.svg");
+  height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
