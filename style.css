@@ -162,13 +162,8 @@ div.skills-list {
   display: flex;
 }
 
-main {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
 ul.categories {
-  padding: 0;
+  padding: 0; 
 }
 
 li.lists {
@@ -222,4 +217,9 @@ li {
 
 ul.sublist {
   padding: 22px;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
