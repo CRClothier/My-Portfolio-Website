@@ -16,6 +16,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 p.introduction {
   color: #1a2236;
   font-family: Poppins, sans-serif;
@@ -137,7 +142,7 @@ button.project-button:hover {
   color: #1a2236;
 }
 
-p.skill {
+li.skill {
   padding: 6px 10px 6px 10px;
   font-family: Poppins, sans-serif;
   font-size: 10px;
@@ -151,6 +156,7 @@ p.skill {
   width: fit-content;
   margin-right: 10px;
   margin-bottom: 20px;
+  list-style: none;
 }
 
 section.project {
@@ -158,8 +164,9 @@ section.project {
   flex-direction: column;
 }
 
-div.skills-list {
+ul.skills-list {
   display: flex;
+  padding: 0;
 }
 
 ul.categories {
