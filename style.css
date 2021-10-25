@@ -116,8 +116,13 @@ h3 {
 .project-description {
   background-color: #1a2236;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+
+}
+
+.project-description h3 {
+  float:left;
 }
 
 button.project-button {
@@ -133,6 +138,8 @@ button.project-button {
   line-height: 24px;
   letter-spacing: 0;
   text-align: center;
+  clear: left;
+  float: left;
 }
 
 button.primary-dark:hover,
@@ -167,6 +174,8 @@ section.project {
 
 ul.skills-list {
   padding: 0;
+  float: clear;
+  float: left;
 }
 
 ul.categories {
