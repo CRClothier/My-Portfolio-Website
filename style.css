@@ -157,6 +157,7 @@ li.skill {
   margin-right: 10px;
   margin-bottom: 20px;
   list-style: none;
+  float: left;
 }
 
 section.project {
@@ -165,7 +166,6 @@ section.project {
 }
 
 ul.skills-list {
-  display: flex;
   padding: 0;
 }
 
