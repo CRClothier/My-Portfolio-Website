@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
 }
@@ -48,6 +49,7 @@ button.primary-dark {
   background-color: #1a2236;
   border-width: 0;
   margin-bottom: 33px;
+  transition-duration: 0.5s;
 }
 
 button.primary-dark:active {
@@ -99,6 +101,11 @@ h2 {
   width: 100%;
   display: block;
   margin-bottom: -3px;
+  transition-duration: 2s;
+}
+
+.project-image:hover {
+  transform: rotate(360deg);
 }
 
 h3 {
@@ -315,4 +322,28 @@ textarea:focus {
 
 h2.get-started {
   padding-left: 0;
+}
+
+.spining {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.get-started p {
+  transition-duration: 1s;
+}
+
+.get-started p:hover {
+  transform: translate(20px);
 }
