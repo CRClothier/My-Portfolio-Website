@@ -330,7 +330,7 @@ h2.get-started {
   animation-iteration-count: 1;
 }
 
-@keyframes spin{
+@keyframes spin {
   from {
     transform: rotate(0);
   }
