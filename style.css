@@ -101,11 +101,11 @@ h2 {
   width: 100%;
   display: block;
   margin-bottom: -3px;
-  transition-duration: 2s;
+  transition-duration: 0.6s;
 }
 
 .project-image:hover {
-  transform: rotate(360deg);
+  filter: grayscale(0.7);
 }
 
 h3 {
@@ -322,26 +322,7 @@ textarea:focus {
 
 h2.get-started {
   padding-left: 0;
-}
-
-.spining {
-  animation-name: spin;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.get-started p {
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .get-started p:hover {
