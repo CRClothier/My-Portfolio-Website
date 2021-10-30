@@ -513,4 +513,75 @@ h2.get-started {
     background-position: bottom right;
     background-repeat: no-repeat;
   }
+
+  section.get-started {
+    display: flex;
+    flex-direction: row;
+    background-image: none;
+    padding: 0;
+  }
+
+  .column1 {
+    width: 30%;
+    background-image: url("./img/image-geometry_7.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 950px;
+  }
+
+  .column3 {
+    width: 30%;
+    height: 950px;
+    background-image: url("./img/image-geometry_8.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+  }
+
+  .column2 h2 {
+    padding-top: 200px;
+    font-size: 110px;
+    margin-bottom: 40px;
+    align-self: center;
+  }
+
+  .column2 p {
+    align-self: center;
+    padding-bottom: 0;
+  }
+
+  ul.form-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  li.small-list-item {
+    width: 50%;
+  }
+
+  li.large-list-item {
+    width: 200%;
+  }
+
+  #name {
+    width: 90%;
+  }
+
+  #email {
+    width: 100%
+  }
+  #message {
+    width: 100%;
+  }
+
+  section.column2 button {
+    align-self: center;
+    margin-top: 40px;
+  }
 }
