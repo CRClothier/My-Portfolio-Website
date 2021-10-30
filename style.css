@@ -334,7 +334,6 @@ h2.get-started {
 }
 
 @media screen and (min-width: 992px) {
-
   header {
     flex-wrap: wrap;
     flex-direction: row;
@@ -413,7 +412,7 @@ h2.get-started {
     font-size: 110px;
     transform: rotate(-90deg);
     width: 11.1%;
-    height: fit-content;
+    height: 50px;
     grid-column: 2 / 3;
     position: relative;
     top: 350px;
@@ -444,7 +443,7 @@ h2.get-started {
   }
 
   .item3 {
-    grid-column: 1 / 6 ;
+    grid-column: 1 / 6;
     grid-row: 5 / 7;
   }
 
@@ -470,6 +469,7 @@ h2.get-started {
     grid-row: 6 / 7;
     z-index: -1;
   }
+
   .background4 {
     background-image: url("./img/image-geometry_4.png");
     background-repeat: no-repeat;
@@ -573,8 +573,9 @@ h2.get-started {
   }
 
   #email {
-    width: 100%
+    width: 100%;
   }
+  
   #message {
     width: 100%;
   }
