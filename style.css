@@ -334,7 +334,7 @@ h2.get-started {
 }
 
 @media screen and (min-width: 992px) {
-  
+
   header {
     flex-wrap: wrap;
     flex-direction: row;
@@ -369,7 +369,7 @@ h2.get-started {
   h1 {
     font-size: 110px;
     line-height: 110px;
-    height: fit-content;
+    height: 220px;
     padding-bottom: 60px;
   }
 
@@ -395,7 +395,7 @@ h2.get-started {
     line-height: 24px;
     letter-spacing: 0;
     text-align: right;
-    color:#1a2236;
+    color: #1a2236;
     border-bottom: 2px solid #fff;
   }
 
@@ -409,8 +409,7 @@ h2.get-started {
     grid-template-rows: 558px 80px 190px 80px 190px 275px 270px;
   }
 
-  }
-  main h2{
+  main h2 {
     font-size: 110px;
     transform: rotate(-90deg);
     width: 11.1%;
@@ -584,3 +583,4 @@ h2.get-started {
     align-self: center;
     margin-top: 40px;
   }
+}
