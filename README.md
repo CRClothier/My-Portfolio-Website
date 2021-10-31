@@ -2,8 +2,8 @@
 A portfolio of all the projects I will create during my time as a student at Microverse.  We will be developing the website over a series of checkpoints and then adding our future projects:
 - Project 1: Setup and mobile version skeleton ✅
 - Project 2: Mobile version ✅
-- Project 3: Contact form 
-- Project 4: Desktop version
+- Project 3: Contact form ✅
+- Project 4: Desktop version ✅
 - Project 5: Application deploy
 - Project 6: Evaluate accessibility 
 - Project 7: Mobile menu 
@@ -61,4 +61,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/CRClothier/My-Portfolio-Website/blob/main/LICENSE) licensed.
