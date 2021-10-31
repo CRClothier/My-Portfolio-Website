@@ -16,8 +16,12 @@
 <body>
   <header>
     <nav>
-      <a href="index.html"><img src="./img/image_geometry_1.svg" alt="logo"></a>
-      <img class="hamburger" src="./img/ic_menu.svg" alt="hamburger menu">
+      <a class="mobile-only" href="index.html"><img src="./img/image_geometry_1.svg" alt="logo"></a>
+      <img class="hamburger mobile-only" src="./img/ic_menu.svg" alt="hamburger menu">
+      <a href="#" class="desktop-only">Home</a>
+      <a href="#" class="desktop-only">Portfolio</a>
+      <a href="#" class="desktop-only">About</a>
+      <a href="#" class="desktop-only">Contact</a>
     </nav>
     <section class="intro">
       <h1>Charlie Giorgania</h1>
@@ -28,9 +32,9 @@
     <section class="header-image"></section>
   </header>
   <section>
-    <h2>Projects</h2>
     <main>
-      <section class="project">
+      <h2>Projects</h2>
+      <section class="project item1">
         <img class="project-image" src="./img/project1.png" alt="laptop on table">
         <section class="project-description">
           <h3>Project name goes here</h3>
@@ -42,9 +46,9 @@
           <button class="project-button"><a href="#">See this project → </a></button>
         </section>
       </section>
-      <section class="project">
+      <section class="project item2">
         <img class="project-image" src="./img/project2.png" alt="laptop on table">
-        <section class="project-description">
+        <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
             <li class="skill">HTML/CSS</p>
@@ -54,9 +58,9 @@
           <button class="project-button"><a href="#">See this project → </a></button>
         </section>
       </section>
-      <section class="project">
+      <section class="project item3">
         <img class="project-image" src="./img/project3.png" alt="laptop on table">
-        <section class="project-description">
+        <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
             <li class="skill">HTML/CSS</p>
@@ -66,9 +70,9 @@
           <button class="project-button"><a href="#">See this project → </a></button>
         </section>
       </section>
-      <section class="project">
+      <section class="project item4">
         <img class="project-image" src="./img/project4.png" alt="laptop on table">
-        <section class="project-description">
+        <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
             <li class="skill">HTML/CSS</p>
@@ -78,9 +82,9 @@
           <button class="project-button"><a href="#">See this project → </a></button>
         </section>
       </section>
-      <section class="project">
+      <section class="project item5">
         <img class="project-image" src="./img/project5.png" alt="laptop on table">
-        <section class="project-description">
+        <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
             <li class="skill">HTML/CSS</p>
@@ -90,7 +94,7 @@
           <button class="project-button"><a href="#">See this project → </a></button>
         </section>
       </section>
-      <section class="project">
+      <section class="project item6">
         <img class="project-image" src="./img/project6.png" alt="laptop on table">
         <section class="project-description">
           <h3>Project name goes here</h3>
@@ -102,6 +106,11 @@
           <button class="project-button"><a href="#">See this project → </a></button>
         </section>
       </section>
+      <section class="spots"></section>
+      <section class="background2"></section>
+      <section class="background3"></section>
+      <section class="background4"></section>
+      <section class="background5"></section>
     </main>
   </section>
   <section class="about">
@@ -143,28 +152,33 @@
           <li>Terminal</li>
         </ul>
       </li>
+      <li class="lists background6"></li>
     </ul>
   </section>
   <section class="get-started">
-    <h2 class="get-started">Get Started</h2>
-    <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-    <form action="https://formspree.io/f/mgerbqva" method="post">
-      <ul class="form-list">
-        <li class="form-list-items">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="user-name" maxlength="30" placeholder="Name" required>
-        </li>
-        <li class="form-list-items">
-          <label for="email"> Your Email</label>
-          <input type="email" id="email" name="user-email" placeholder="Email" required>
-        </li>
-        <li class="form-list-items">
-          <label for="message"></label>
-          <textarea name="user-message" id="message" maxlength="500" placeholder="Enter your message here..." required></textarea>
-        </li>
-      </ul>
-      <button class="primary-dark" type="submit">Start collaboration</button>
-    </form>
+    <section class="column1"></section>
+    <section class="column2">
+      <h2 class="get-started">Get Started</h2>
+      <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      <form action="https://formspree.io/f/mgerbqva" method="post">
+        <ul class="form-list">
+          <li class="form-list-items small-list-item">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="user-name" maxlength="30" placeholder="Name" required>
+          </li>
+          <li class="form-list-items small-list-item">
+            <label for="email"> Your Email</label>
+            <input type="email" id="email" name="user-email" placeholder="Email" required>
+          </li>
+          <li class="form-list-items large-list-item">
+            <label for="message"></label>
+            <textarea name="user-message" id="message" maxlength="500" placeholder="Enter your message here..." required></textarea>
+          </li>
+        </ul>
+        <button class="primary-dark" type="submit">Start collaboration</button>
+      </form>
+    </section>
+    <section class="column3"></section>
   </section>
 </body>
 </html>
