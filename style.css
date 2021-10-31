@@ -584,4 +584,16 @@ h2.get-started {
     align-self: center;
     margin-top: 40px;
   }
+
+  .item1 img {
+    position: relative;
+    float: left;
+  }
+
+  .item1 section{
+    position: absolute;
+    width: 100%;
+    margin-top: 400px;
+  }
+
 }
