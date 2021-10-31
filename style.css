@@ -488,16 +488,17 @@ h2.get-started {
   section.about {
     display: flex;
     flex-direction: row-reverse;
-    padding: 160px;
+    justify-content: center;
+    margin-right: auto;
   }
 
   .about-information {
-    width: 40%;
-    margin-left: 10%;
+    width: 30%;
+    margin-left: 7%;
   }
 
   .categories {
-    width: 50%;
+    width: 560px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
