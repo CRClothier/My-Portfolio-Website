@@ -43,7 +43,7 @@ Edit the files to practice professional standards.
 ## Authors
 
 **Chris Clothier**
-GitHub: [@CRClothier](https://github.com/crclothier)
+GitHub: [@CRClothier](https://github.com/crclothier)  
 LinkedIn: [Chris Clothier](https://www.linkedin.com/in/crclothier/)
 
 ## 🤝 Contributing
