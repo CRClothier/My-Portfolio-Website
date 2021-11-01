@@ -4,7 +4,7 @@ A portfolio of all the projects I will create during my time as a student at Mic
 - Project 2: Mobile version ✅
 - Project 3: Contact form ✅
 - Project 4: Desktop version ✅
-- Project 5: Application deploy
+- Project 5: Application deploy ✅
 - Project 6: Evaluate accessibility 
 - Project 7: Mobile menu 
 - Project 8: Details modal 
@@ -18,7 +18,7 @@ A portfolio of all the projects I will create during my time as a student at Mic
 
 ## Live Demo
 
-The live demo is not yet active.
+[My Portfolio](https://crclothier.github.io/My-Portfolio-Website/)
 
 ## Getting Started
 
