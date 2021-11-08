@@ -598,7 +598,6 @@ h2.get-started {
   }
 }
 
-
 .hidden {
   display: none;
 }
@@ -630,7 +629,7 @@ h2.get-started {
   font-style: normal;
   font-weight: 400;
   line-height: 48px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #000;
 }
