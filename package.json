@@ -1,0 +1,31 @@
+{
+  "name": "my-portfolio-website",
+  "version": "1.0.0",
+  "description": "A portfolio of all the projects I will create during my time as a student at Microverse.  We will be developing the website over a series of checkpoints and then adding our future projects:\r - Project 1: Setup and mobile version skeleton ✅\r - Project 2: Mobile version ✅\r - Project 3: Contact form ✅\r - Project 4: Desktop version ✅\r - Project 5: Application deploy ✅\r - Project 6: Evaluate accessibility \r - Project 7: Mobile menu \r - Project 8: Details modal \r - Project 9: Validate contact form \r - Project 10: Preserve data in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRClothier/My-Portfolio-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRClothier/My-Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/CRClothier/My-Portfolio-Website#readme",
+  "keywords": [],
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "hint": "^6.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
