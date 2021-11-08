@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('#mobile_menu');
-const crossButton = document.querySelector('#cross');
+const crossButton = document.querySelectorAll('.closer');
 
 function showMenu() {
   mobileMenu.classList.replace('hidden', 'show_menu');
@@ -10,4 +10,4 @@ function hideMenu() {
 }
 
 hamburger.addEventListener('click', showMenu);
-crossButton.addEventListener('click', hideMenu);
+crossButton.forEach((item) => item.addEventListener('click', hideMenu));

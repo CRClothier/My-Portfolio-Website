@@ -24,20 +24,20 @@
 </head>
 <body>
   <div id="mobile_menu" class="hidden">
-    <img id="cross" class="" src="./img/Cross_icon.svg" alt="Cross icon">
-    <a href="#" class="">Home</a>
-    <a href="#" class="">Portfolio</a>
-    <a href="#" class="">About</a>
-    <a href="#" class="">Contact</a>
+    <img id="cross" class="closer" src="./img/Cross_icon.svg" alt="Cross icon">
+    <a href="#home" class="mobile-menu-links closer">Home</a>
+    <a href="#portfolio" class="mobile-menu-links closer">Portfolio</a>
+    <a href="#about" class="mobile-menu-links closer">About</a>
+    <a href="#contact" class="mobile-menu-links closer">Contact</a>
   </div>
-  <header>
+  <header id="home">
     <nav>
       <a class="mobile-only" href="index.html"><img src="./img/image_geometry_1.svg" alt="logo"></a>
       <img class="hamburger mobile-only" src="./img/ic_menu.svg" alt="hamburger menu">
-      <a href="#" class="desktop-only">Home</a>
-      <a href="#" class="desktop-only">Portfolio</a>
-      <a href="#" class="desktop-only">About</a>
-      <a href="#" class="desktop-only">Contact</a>
+      <a href="#home" class="desktop-only">Home</a>
+      <a href="#portfolio" class="desktop-only">Portfolio</a>
+      <a href="#about" class="desktop-only">About</a>
+      <a href="#contact" class="desktop-only">Contact</a>
     </nav>
     <section class="intro">
       <h1>Charlie Giorgania</h1>
@@ -48,7 +48,7 @@
     <section class="header-image"></section>
   </header>
   <section>
-    <main>
+    <main id="portfolio">
       <h2>Projects</h2>
       <section class="project item1">
         <img class="project-image" src="./img/project1.png" alt="laptop on table">
@@ -129,7 +129,7 @@
       <section class="background5"></section>
     </main>
   </section>
-  <section class="about">
+  <section id="about" class="about">
     <section class="about-information">
       <h2 class="about-title">About</h2>
       <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -171,7 +171,7 @@
       <li class="lists background6"></li>
     </ul>
   </section>
-  <section class="get-started">
+  <section id="contact" class="get-started">
     <section class="column1"></section>
     <section class="column2">
       <h2 class="get-started">Get Started</h2>
