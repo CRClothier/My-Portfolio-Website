@@ -612,6 +612,10 @@ h2.get-started {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(/img/bottom.png), url(/img/top.png);
+  background-position: bottom, top left;
+  background-repeat: no-repeat;
+  background-size: contain, 82%;
 }
 
 #cross {
