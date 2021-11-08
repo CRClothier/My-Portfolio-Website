@@ -359,7 +359,7 @@ h2.get-started {
     background-repeat: no-repeat;
   }
 
-  section.header-image {
+  div.header-image {
     width: 50%;
     background-image: url("./img/image-geometry_desktop.svg");
     height: 877px;
@@ -485,7 +485,7 @@ h2.get-started {
     grid-row: 7 / 8;
   }
 
-  section.about {
+  div.about {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -514,7 +514,7 @@ h2.get-started {
     background-repeat: no-repeat;
   }
 
-  section.get-started {
+  div.get-started {
     display: flex;
     flex-direction: row;
     background-image: none;
