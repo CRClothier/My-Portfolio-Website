@@ -597,3 +597,15 @@ h2.get-started {
     margin-top: 400px;
   }
 }
+
+
+.hidden {
+  display: none;
+}
+
+.show_menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
