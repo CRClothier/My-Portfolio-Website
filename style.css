@@ -602,6 +602,17 @@ h2.get-started {
   display: none;
 }
 
+.show_popup {
+  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+}
+
 .show_menu {
   position: fixed;
   width: 100vw;

@@ -23,6 +23,20 @@
   <title>Document</title>
 </head>
 <body>
+  <div class="modal-container hidden">
+    <div class="modal-element">
+      <img class="modal-closer" src="./img/Cross_icon.svg" alt="Cross icon">
+      <h2 class="modal-title"></h2>
+      <ul class="modal-tech"></ul>
+      <img class="modal-img" src="" alt="project picture">
+      <p class="modal-description"></p>
+    </div>
+    <div class="modal-element">
+      <a id="modal-live" class="button-secondary">See live</a>
+      <a id="modal-source" class="button-secondary">See source</a>
+    </div>
+  </div>
+
   <div id="mobile_menu" class="hidden">
     <img id="cross" class="closer" src="./img/Cross_icon.svg" alt="Cross icon">
     <a href="#home" class="mobile-menu-links closer">Home</a>
@@ -48,7 +62,7 @@
     <div class="header-image"></div>
   </header>
     <main id="portfolio">
-      <h2>Projects</h2>
+      <h2 id="project-title">Projects</h2>
       <div class="spots"></div>
       <div class="background2"></div>
       <div class="background3"></div>

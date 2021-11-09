@@ -48,12 +48,13 @@ const projects= [
     source : 'https://github.com/CRClothier'
   }
 ]
-
-const main = document.querySelector('h2');
+let n=6;
+const main = document.querySelector('#project-title');
 
  function createCard (project) {
-  let card = document.createElement('article');
-  card.className = 'project';
+  let card = document.createElement('div');
+  card.className = 'project item'+n;
+  n--;
   let projectimg = document.createElement('img');
   projectimg.className = 'project-image';
   projectimg.srcset = project.featured_image;
@@ -86,9 +87,8 @@ const main = document.querySelector('h2');
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('#mobile_menu');
 const crossButton = document.querySelectorAll('.closer');
-const popupButton = document.querySelector('.project-button');
-
-
+const modalWindow = document.querySelector('.modal-container');
+const modalcross = document.querySelector('.modal-closer');
 
 function showMenu() {
   mobileMenu.classList.replace('hidden', 'show_menu');
@@ -98,15 +98,39 @@ function hideMenu() {
 }
 
 function showPopup(project) {
+  modalWindow.classList.replace('hidden', 'show_popup');
+  let title = document.querySelector('.modal-title');
+  let image = document.querySelector('.modal-img');
+  let description = document.querySelector('.modal-description');
+  let techlist = document.querySelector('.modal-tech');
+  let livelink = document.querySelector('#modal-live');
+  let sourcelink = document.querySelector('#modal-source');
+
+  title.textContent = project.name;
+  image.srcset = project.featured_image;
+  description.textContent = project.description;
+  livelink.setAttribute('href', project.link);
+  sourcelink.setAttribute('href', project.source);
+
+  project.technologies.forEach((value, index) => {
+    let techitem = document.createElement('li');
+    techitem.className = 'skill';
+    techitem.textContent = value;
+    techlist.appendChild(techitem);
+  });
 
 }
 
 function hidePopup() {
-
+  modalWindow.classList.replace('show_popup', 'hidden');
+  let techlist = document.querySelector('.modal-tech');
+  while (techlist.firstChild) {
+      techlist.removeChild(techlist.firstChild);
+  }
 }
 
 
 hamburger.addEventListener('click', showMenu);
 crossButton.forEach((item) => item.addEventListener('click', hideMenu));
+modalcross.addEventListener('click', hidePopup);
 projects.reverse().forEach((project) => createCard(project));
-
