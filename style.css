@@ -380,7 +380,10 @@ h2.get-started {
     width: 254px;
   }
 
-  .mobile-only {
+  .item2 section,
+  .item3 section,
+  .item4 section,
+  .item5 section {
     display: none;
   }
 

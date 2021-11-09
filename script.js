@@ -48,6 +48,7 @@ const projects= [
     source : 'https://github.com/CRClothier'
   }
 ]
+
 let n=6;
 const main = document.querySelector('#project-title');
 
