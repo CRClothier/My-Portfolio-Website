@@ -49,7 +49,7 @@ const projects= [
   }
 ]
 
-let n=6;
+let n=projects.length;
 const main = document.querySelector('#project-title');
 
  function createCard (project) {
