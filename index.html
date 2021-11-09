@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHGKRQSTQM"></script>
   <script>
@@ -15,121 +16,125 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <body>
-  <header>
+  <div id="mobile_menu" class="hidden">
+    <img id="cross" class="closer" src="./img/Cross_icon.svg" alt="Cross icon">
+    <a href="#home" class="mobile-menu-links closer">Home</a>
+    <a href="#portfolio" class="mobile-menu-links closer">Portfolio</a>
+    <a href="#about" class="mobile-menu-links closer">About</a>
+    <a href="#contact" class="mobile-menu-links closer">Contact</a>
+  </div>
+  <header id="home">
     <nav>
       <a class="mobile-only" href="index.html"><img src="./img/image_geometry_1.svg" alt="logo"></a>
       <img class="hamburger mobile-only" src="./img/ic_menu.svg" alt="hamburger menu">
-      <a href="#" class="desktop-only">Home</a>
-      <a href="#" class="desktop-only">Portfolio</a>
-      <a href="#" class="desktop-only">About</a>
-      <a href="#" class="desktop-only">Contact</a>
+      <a href="#home" class="desktop-only">Home</a>
+      <a href="#portfolio" class="desktop-only">Portfolio</a>
+      <a href="#about" class="desktop-only">About</a>
+      <a href="#contact" class="desktop-only">Contact</a>
     </nav>
     <section class="intro">
       <h1>Charlie Giorgania</h1>
       <p class="introduction">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
         If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-      <button class="primary-dark spining" ><a href="#">Start collaboration</a></button>
+      <button type="button" class="primary-dark" >Start collaboration</button>
     </section>
-    <section class="header-image"></section>
+    <div class="header-image"></div>
   </header>
-  <section>
-    <main>
+    <main id="portfolio">
       <h2>Projects</h2>
-      <section class="project item1">
+      <div class="project item1">
         <img class="project-image" src="./img/project1.png" alt="laptop on table">
         <section class="project-description">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
-            <li class="skill">HTML/CSS</p>
-            <li class="skill">Ruby On Rails</p>
-            <li class="skill">Javascript</p>
+            <li class="skill">HTML/CSS</li>
+            <li class="skill">Ruby On Rails</li>
+            <li class="skill">Javascript</li>
           </ul>
-          <button class="project-button"><a href="#">See this project → </a></button>
+          <button type="button" class="project-button">See this project →</button>
         </section>
-      </section>
-      <section class="project item2">
+      </div>
+      <div class="project item2">
         <img class="project-image" src="./img/project2.png" alt="laptop on table">
         <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
-            <li class="skill">HTML/CSS</p>
-            <li class="skill">Ruby On Rails</p>
-            <li class="skill">Javascript</p>
+            <li class="skill">HTML/CSS</li>
+            <li class="skill">Ruby On Rails</li>
+            <li class="skill">Javascript</li>
           </ul>
-          <button class="project-button"><a href="#">See this project → </a></button>
+          <button type="button" class="project-button">See this project →</button>
         </section>
-      </section>
-      <section class="project item3">
+      </div>
+      <div class="project item3">
         <img class="project-image" src="./img/project3.png" alt="laptop on table">
         <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
-            <li class="skill">HTML/CSS</p>
-            <li class="skill">Ruby On Rails</p>
-            <li class="skill">Javascript</p>
+            <li class="skill">HTML/CSS</li>
+            <li class="skill">Ruby On Rails</li>
+            <li class="skill">Javascript</li>
           </ul>
-          <button class="project-button"><a href="#">See this project → </a></button>
+          <button type="button" class="project-button">See this project →</button>
         </section>
-      </section>
-      <section class="project item4">
+      </div>
+      <div class="project item4">
         <img class="project-image" src="./img/project4.png" alt="laptop on table">
         <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
-            <li class="skill">HTML/CSS</p>
-            <li class="skill">Ruby On Rails</p>
-            <li class="skill">Javascript</p>
+            <li class="skill">HTML/CSS</li>
+            <li class="skill">Ruby On Rails</li>
+            <li class="skill">Javascript</li>
           </ul>
-          <button class="project-button"><a href="#">See this project → </a></button>
+          <button type="button" class="project-button">See this project →</button>
         </section>
-      </section>
-      <section class="project item5">
+      </div>
+      <div class="project item5">
         <img class="project-image" src="./img/project5.png" alt="laptop on table">
         <section class="project-description mobile-only">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
-            <li class="skill">HTML/CSS</p>
-            <li class="skill">Ruby On Rails</p>
-            <li class="skill">Javascript</p>
+            <li class="skill">HTML/CSS</li>
+            <li class="skill">Ruby On Rails</li>
+            <li class="skill">Javascript</li>
           </ul>
-          <button class="project-button"><a href="#">See this project → </a></button>
+          <button type="button" class="project-button">See this project →</button>
         </section>
-      </section>
-      <section class="project item6">
+      </div>
+      <div class="project item6">
         <img class="project-image" src="./img/project6.png" alt="laptop on table">
         <section class="project-description">
           <h3>Project name goes here</h3>
           <ul class="skills-list">
-            <li class="skill">HTML/CSS</p>
-            <li class="skill">Ruby On Rails</p>
-            <li class="skill">Javascript</p>
+            <li class="skill">HTML/CSS</li>
+            <li class="skill">Ruby On Rails</li>
+            <li class="skill">Javascript</li>
           </ul>
-          <button class="project-button"><a href="#">See this project → </a></button>
+          <button type="button" class="project-button">See this project →</button>
         </section>
-      </section>
-      <section class="spots"></section>
-      <section class="background2"></section>
-      <section class="background3"></section>
-      <section class="background4"></section>
-      <section class="background5"></section>
+      </div>
+      <div class="spots"></div>
+      <div class="background2"></div>
+      <div class="background3"></div>
+      <div class="background4"></div>
+      <div class="background5"></div>
     </main>
-  </section>
-  <section class="about">
+  <div id="about" class="about">
     <section class="about-information">
       <h2 class="about-title">About</h2>
       <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
         nisi ut aliquip ea eiusmod</p>
-      <button class="primary-dark"><a href="#">Get my CV ⤓ </a></button>
+      <button type="button" class="primary-dark">Get my CV ⤓</button>
     </section>
     <ul class="categories">
       <li class="lists" id="languages">
@@ -163,9 +168,9 @@
       </li>
       <li class="lists background6"></li>
     </ul>
-  </section>
-  <section class="get-started">
-    <section class="column1"></section>
+  </div>
+  <div id="contact" class="get-started">
+    <div class="column1"></div>
     <section class="column2">
       <h2 class="get-started">Get Started</h2>
       <p class="introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
@@ -187,7 +192,8 @@
         <button class="primary-dark" type="submit">Start collaboration</button>
       </form>
     </section>
-    <section class="column3"></section>
-  </section>
+    <div class="column3"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

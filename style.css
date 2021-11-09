@@ -48,7 +48,7 @@ button.primary-dark {
   color: #fff;
   background-color: #1a2236;
   border-width: 0;
-  margin-bottom: 33px;
+  margin-bottom: 50px;
   transition-duration: 0.5s;
 }
 
@@ -235,7 +235,7 @@ ul.sublist {
 
 main {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 section.get-started {
@@ -359,7 +359,7 @@ h2.get-started {
     background-repeat: no-repeat;
   }
 
-  section.header-image {
+  div.header-image {
     width: 50%;
     background-image: url("./img/image-geometry_desktop.svg");
     height: 877px;
@@ -485,7 +485,7 @@ h2.get-started {
     grid-row: 7 / 8;
   }
 
-  section.about {
+  div.about {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -514,7 +514,7 @@ h2.get-started {
     background-repeat: no-repeat;
   }
 
-  section.get-started {
+  div.get-started {
     display: flex;
     flex-direction: row;
     background-image: none;
@@ -596,4 +596,44 @@ h2.get-started {
     width: 100%;
     margin-top: 400px;
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.show_menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/bottom.png), url(/img/top.png);
+  background-position: bottom, top left;
+  background-repeat: no-repeat;
+  background-size: contain, 82%;
+}
+
+#cross {
+  position: fixed;
+  top: 24px;
+  right: 20px;
+}
+
+.mobile-menu-links {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #000;
+}
+
+.mobile-menu-links:hover {
+  text-decoration: underline;
 }
