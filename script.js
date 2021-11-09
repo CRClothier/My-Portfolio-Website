@@ -49,7 +49,7 @@ const projects= [
   }
 ]
 
-const main = document.querySelector('#portfolio');
+const main = document.querySelector('h2');
 
  function createCard (project) {
   let card = document.createElement('article');
@@ -77,24 +77,18 @@ const main = document.querySelector('#portfolio');
   projectbtn.type = 'button';
   projectbtn.className = 'project-button';
   projectbtn.textContent = 'See this project →';
-  projectsection.appendChild(projectbtn)
+  projectbtn.setAttribute('onclick','showPopup(projects['+projects.indexOf(project)+'])');
+  projectsection.appendChild(projectbtn);
 
-  main.insertAdjacentElement('beforeend',card);
+  main.insertAdjacentElement('afterend',card);
  }
-
-
-// create a new heading and add it to the div
-// let h2 = document.createElement('h2');
-// h2.textContent = 'Add h2 element to the div';
-// div.appendChild(h2);
-
-// // add div to the document
-// document.body.appendChild(div);
-
 
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('#mobile_menu');
 const crossButton = document.querySelectorAll('.closer');
+const popupButton = document.querySelector('.project-button');
+
+
 
 function showMenu() {
   mobileMenu.classList.replace('hidden', 'show_menu');
@@ -103,6 +97,16 @@ function hideMenu() {
   mobileMenu.classList.replace('show_menu', 'hidden');
 }
 
+function showPopup(project) {
+
+}
+
+function hidePopup() {
+
+}
+
+
 hamburger.addEventListener('click', showMenu);
 crossButton.forEach((item) => item.addEventListener('click', hideMenu));
-projects.forEach((project) => createCard(project));
+projects.reverse().forEach((project) => createCard(project));
+
