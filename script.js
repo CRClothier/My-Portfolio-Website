@@ -99,7 +99,7 @@ function showMenu() {
 
 function hideMenu() {
   mobileMenu.classList.replace('show_menu', 'hidden');
-  body.classList.remove('no-scroll')
+  body.classList.remove('no-scroll');
 }
 
 function showPopup(project) {
@@ -123,7 +123,7 @@ function showPopup(project) {
     techitem.textContent = value;
     techlist.appendChild(techitem);
   });
-
+  body.className = 'no-scroll';
 }
 
 function hidePopup() {
@@ -132,6 +132,7 @@ function hidePopup() {
   while (techlist.firstChild) {
       techlist.removeChild(techlist.firstChild);
   }
+  body.classList.remove('no-scroll');
 }
 
 
