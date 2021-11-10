@@ -19,7 +19,7 @@ const projects = [
     name: 'Project Three',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiUt aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     featured_image: './img/project3.png',
-    technologies: ['HTML','CSS','JavaScript'],
+    technologies: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
     source: 'https://github.com/CRClothier',
   },
@@ -37,7 +37,7 @@ const projects = [
     featured_image: './img/project5.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
-    source : 'https://github.com/CRClothier',
+    source: 'https://github.com/CRClothier',
   },
   {
     name: 'Project Six',
@@ -49,13 +49,13 @@ const projects = [
   },
 ];
 
-let n=projects.length;
+let n = projects.length;
 const main = document.querySelector('#project-title');
 
 function createCard(project) {
   const card = document.createElement('div');
   card.className = `project item${n}`;
-  n = n - 1;
+  n -= 1;
   const projectimg = document.createElement('img');
   projectimg.className = 'project-image';
   projectimg.srcset = project.featured_image;
@@ -102,7 +102,7 @@ function hideMenu() {
   body.classList.remove('no-scroll');
 }
 
-function showPopup(project) {  // eslint-disable-line no-use-before-define
+function showPopup(project) {// eslint-disable-line no-unused-vars
   modalWindow.classList.replace('hidden', 'show_popup');
   const title = document.querySelector('.modal-title');
   const image = document.querySelector('.modal-img');
