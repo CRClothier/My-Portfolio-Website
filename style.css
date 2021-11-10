@@ -325,10 +325,6 @@ h2.get-started {
   transition-duration: 0.5s;
 }
 
-.get-started p:hover {
-  transform: translate(20px);
-}
-
 .desktop-only {
   display: none;
 }
@@ -384,7 +380,8 @@ h2.get-started {
   margin-top: 29px;
 }
 
-#cross, .modal-closer {
+#cross,
+.modal-closer {
   position: fixed;
   top: 24px;
   right: 20px;
@@ -665,7 +662,7 @@ h2.get-started {
 
   .item1 section {
     position: absolute;
-    width: 63.9%;
+    width: 63.5%;
     margin-top: 400px;
   }
 
@@ -674,10 +671,10 @@ h2.get-started {
     float: left;
   }
 
-  .item6 selection {
-    position: relative;
-    width: 34%;
-    top: 150px;
+  .item6 section {
+    position: absolute;
+    width: 30.3%;
+    margin-top: 112px;
   }
 
   .show_popup {
@@ -698,7 +695,7 @@ h2.get-started {
     line-height: 16px;
   }
 
-  .show_popup .modal-buttons{
+  .show_popup .modal-buttons {
     display: flex;
     flex-direction: row;
     width: 700px;
@@ -720,8 +717,9 @@ h2.get-started {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;    
+    margin-top: 70px;
   }
+  
 }
 
 .hidden {
