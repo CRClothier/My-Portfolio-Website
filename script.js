@@ -51,6 +51,7 @@ const projects = [
 
 let n = projects.length;
 const main = document.querySelector('#project-title');
+const formWarning = document.querySelector('small');
 
 function createCard(project) {
   const card = document.createElement('div');
@@ -133,6 +134,17 @@ function hidePopup() {
     techlist.removeChild(techlist.firstChild);
   }
   body.classList.remove('no-scroll');
+}
+
+function validateForm() {
+  const email = document.forms['contact-form']["user-email"].value;
+  if (email.toLowerCase()===email){
+     return true;
+  }
+  else {
+    formWarning.textContent = 'Email must be in lower case';
+    return false;
+  }
 }
 
 hamburger.addEventListener('click', showMenu);
