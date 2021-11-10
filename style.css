@@ -380,6 +380,7 @@ h2.get-started {
     width: 254px;
   }
 
+  .mobile-only,
   .item2 section,
   .item3 section,
   .item4 section,
@@ -596,8 +597,19 @@ h2.get-started {
 
   .item1 section {
     position: absolute;
-    width: 100%;
+    width: 63.9%;
     margin-top: 400px;
+  }
+
+  .item6 img {
+    position: relative;
+    float: left;
+  }
+
+  .item6 selection {
+    position: relative;
+    width: 34%;
+    top: 150px;
   }
 }
 
@@ -606,17 +618,82 @@ h2.get-started {
 }
 
 .show_popup {
+  overflow-y: auto;
   z-index: 2;
   position: fixed;
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   background-color: white;
+  padding: 20px;
+}
+
+.show_popup h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 0;
+}
+
+.show_popup .modal-img {
+  width: 100%;
+}
+
+.show_popup ul {
+  display: flex;
+  padding: 0;
+}
+
+.show_popup li {
+  border: #1a2236 solid 1px;
+  background-color: #fff;
+}
+
+.show_popup p {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.show_popup .modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.show_popup a {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: center;
+  border: solid 1px #1a2236;
+  padding: 10px 20px;
+  width: 70%;
+  margin-top: 29px;
 }
 
 .show_menu {
+  overflow-y: auto;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -631,7 +708,7 @@ h2.get-started {
   background-size: contain, 82%;
 }
 
-#cross {
+#cross, .modal-closer {
   position: fixed;
   top: 24px;
   right: 20px;
