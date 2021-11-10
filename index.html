@@ -23,6 +23,20 @@
   <title>Document</title>
 </head>
 <body>
+  <div class="modal-container hidden">
+    <div class="modal-element">
+      <img class="modal-closer" src="./img/Cross_icon.svg" alt="Cross icon">
+      <h2 class="modal-title">title</h2>
+      <ul class="modal-tech"></ul>
+      <img class="modal-img" src="#" alt="project picture">
+      <p class="modal-description"></p>
+    </div>
+    <div class="modal-buttons">
+      <a id="modal-live" class="button-secondary">See live   <img src="img/ic_link.png" alt="#"></a>
+      <a id="modal-source" class="button-secondary">See source   <img src="img/Vector.png" alt="#"></a>
+    </div>
+  </div>
+
   <div id="mobile_menu" class="hidden">
     <img id="cross" class="closer" src="./img/Cross_icon.svg" alt="Cross icon">
     <a href="#home" class="mobile-menu-links closer">Home</a>
@@ -40,7 +54,7 @@
       <a href="#contact" class="desktop-only">Contact</a>
     </nav>
     <section class="intro">
-      <h1>Charlie Giorgania</h1>
+      <h1>Chris Clothier</h1>
       <p class="introduction">Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
         If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
       <button type="button" class="primary-dark" >Start collaboration</button>
@@ -48,79 +62,7 @@
     <div class="header-image"></div>
   </header>
     <main id="portfolio">
-      <h2>Projects</h2>
-      <div class="project item1">
-        <img class="project-image" src="./img/project1.png" alt="laptop on table">
-        <section class="project-description">
-          <h3>Project name goes here</h3>
-          <ul class="skills-list">
-            <li class="skill">HTML/CSS</li>
-            <li class="skill">Ruby On Rails</li>
-            <li class="skill">Javascript</li>
-          </ul>
-          <button type="button" class="project-button">See this project →</button>
-        </section>
-      </div>
-      <div class="project item2">
-        <img class="project-image" src="./img/project2.png" alt="laptop on table">
-        <section class="project-description mobile-only">
-          <h3>Project name goes here</h3>
-          <ul class="skills-list">
-            <li class="skill">HTML/CSS</li>
-            <li class="skill">Ruby On Rails</li>
-            <li class="skill">Javascript</li>
-          </ul>
-          <button type="button" class="project-button">See this project →</button>
-        </section>
-      </div>
-      <div class="project item3">
-        <img class="project-image" src="./img/project3.png" alt="laptop on table">
-        <section class="project-description mobile-only">
-          <h3>Project name goes here</h3>
-          <ul class="skills-list">
-            <li class="skill">HTML/CSS</li>
-            <li class="skill">Ruby On Rails</li>
-            <li class="skill">Javascript</li>
-          </ul>
-          <button type="button" class="project-button">See this project →</button>
-        </section>
-      </div>
-      <div class="project item4">
-        <img class="project-image" src="./img/project4.png" alt="laptop on table">
-        <section class="project-description mobile-only">
-          <h3>Project name goes here</h3>
-          <ul class="skills-list">
-            <li class="skill">HTML/CSS</li>
-            <li class="skill">Ruby On Rails</li>
-            <li class="skill">Javascript</li>
-          </ul>
-          <button type="button" class="project-button">See this project →</button>
-        </section>
-      </div>
-      <div class="project item5">
-        <img class="project-image" src="./img/project5.png" alt="laptop on table">
-        <section class="project-description mobile-only">
-          <h3>Project name goes here</h3>
-          <ul class="skills-list">
-            <li class="skill">HTML/CSS</li>
-            <li class="skill">Ruby On Rails</li>
-            <li class="skill">Javascript</li>
-          </ul>
-          <button type="button" class="project-button">See this project →</button>
-        </section>
-      </div>
-      <div class="project item6">
-        <img class="project-image" src="./img/project6.png" alt="laptop on table">
-        <section class="project-description">
-          <h3>Project name goes here</h3>
-          <ul class="skills-list">
-            <li class="skill">HTML/CSS</li>
-            <li class="skill">Ruby On Rails</li>
-            <li class="skill">Javascript</li>
-          </ul>
-          <button type="button" class="project-button">See this project →</button>
-        </section>
-      </div>
+      <h2 id="project-title">Projects</h2>
       <div class="spots"></div>
       <div class="background2"></div>
       <div class="background3"></div>
