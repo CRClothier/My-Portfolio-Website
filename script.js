@@ -137,13 +137,18 @@ function hidePopup() {
 }
 
 function validateForm() {
+  const emailField = document.querySelector('#email');
   const email = document.forms['contact-form']["user-email"].value;
   if (email.toLowerCase()===email){
-     return true;
+    emailField.classList.remove('invalid_form');
+    return true;
+    
   }
   else {
     formWarning.textContent = 'Email must be in lower case';
+    emailField.classList.add('invalid_form');
     return false;
+    
   }
 }
 
