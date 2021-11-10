@@ -138,12 +138,11 @@ function hidePopup() {
 
 function validateForm() { // eslint-disable-line no-unused-vars
   const emailField = document.querySelector('#email');
-  const email = document.forms['contact-form']["user-email"].value;
-  if (email.toLowerCase() === email){
+  const email = document.forms['contact-form']['user-email'].value;
+  if (email.toLowerCase() === email) {
     emailField.classList.remove('invalid_form');
-    return true;   
-  }
-  else {
+    return true;
+  } else {
     formWarning.textContent = 'Email must be in lower case';
     emailField.classList.add('invalid_form');
     return false;
