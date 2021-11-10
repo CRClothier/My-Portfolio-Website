@@ -142,11 +142,10 @@ function validateForm() { // eslint-disable-line no-unused-vars
   if (email.toLowerCase() === email) {
     emailField.classList.remove('invalid_form');
     return true;
-  } else {
-    formWarning.textContent = 'Email must be in lower case';
-    emailField.classList.add('invalid_form');
-    return false;
   }
+  formWarning.textContent = 'Email must be in lower case';
+  emailField.classList.add('invalid_form');
+  return false;
 }
 
 hamburger.addEventListener('click', showMenu);
