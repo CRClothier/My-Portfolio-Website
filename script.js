@@ -102,7 +102,7 @@ function hideMenu() {
   body.classList.remove('no-scroll');
 }
 
-function showPopup(project) {// eslint-disable-line no-unused-vars
+function showPopup(project) { // eslint-disable-line no-unused-vars
   modalWindow.classList.replace('hidden', 'show_popup');
   const title = document.querySelector('.modal-title');
   const image = document.querySelector('.modal-img');
