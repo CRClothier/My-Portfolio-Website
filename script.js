@@ -164,15 +164,12 @@ const emailField = document.querySelector('#email');
 const textArea = document.querySelector('textarea');
 
 function getFormData() {
-  if(!localStorage.getItem('saveData')) {
-    populateStorage();
-  } else {
+  if(localStorage.getItem('saveData')) {
     const localData = JSON.parse(localStorage.saveData);
     input.value = localData.name;
     emailField.value = localData.email;
     textArea.value = localData.comment;
-  }
-  
+  } 
 }
 
 function saveFormData() {
