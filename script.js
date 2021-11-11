@@ -177,17 +177,17 @@ function saveFormData() {
   localStorage.saveData = saveData;
 }
 
-input.addEventListener('change', function() {
+input.addEventListener('change', () => {
   formData.name = input.value;
   saveFormData();
 });
 
-emailField.addEventListener('change', function() {
+emailField.addEventListener('change', () => {
   formData.email = emailField.value;
   saveFormData();
 });
 
-textArea.addEventListener('change', function() {
+textArea.addEventListener('change', () => {
   formData.comment = textArea.value;
   saveFormData();
 });
