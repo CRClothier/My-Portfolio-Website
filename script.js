@@ -49,7 +49,7 @@ const projects = [
   },
 ];
 
-let formData = {
+const formData = {
   name: '',
   email: '',
   comment: '',
@@ -164,30 +164,30 @@ const emailField = document.querySelector('#email');
 const textArea = document.querySelector('textarea');
 
 function getFormData() {
-  if(localStorage.getItem('saveData')) {
+  if (localStorage.getItem('saveData')) {
     const localData = JSON.parse(localStorage.saveData);
     input.value = localData.name;
     emailField.value = localData.email;
     textArea.value = localData.comment;
-  } 
+  }
 }
 
 function saveFormData() {
   const saveData = JSON.stringify(formData);
-  localStorage.saveData=saveData;
+  localStorage.saveData = saveData;
 }
 
-input.addEventListener('change', (event) => {
+input.addEventListener('change', function() {
   formData.name = input.value;
   saveFormData();
 });
 
-emailField.addEventListener('change', (event) => {
+emailField.addEventListener('change', function() {
   formData.email = emailField.value;
   saveFormData();
 });
 
-textArea.addEventListener('change', (event) => {
+textArea.addEventListener('change', function() {
   formData.comment = textArea.value;
   saveFormData();
 });
