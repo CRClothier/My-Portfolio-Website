@@ -51,6 +51,7 @@ const projects = [
 
 let n = projects.length;
 const main = document.querySelector('#project-title');
+const formWarning = document.querySelector('small');
 
 function createCard(project) {
   const card = document.createElement('div');
@@ -133,6 +134,18 @@ function hidePopup() {
     techlist.removeChild(techlist.firstChild);
   }
   body.classList.remove('no-scroll');
+}
+
+function validateForm() { // eslint-disable-line no-unused-vars
+  const emailField = document.querySelector('#email');
+  const email = document.forms['contact-form']['user-email'].value;
+  if (email.toLowerCase() === email) {
+    emailField.classList.remove('invalid_form');
+    return true;
+  }
+  formWarning.textContent = 'Email must be in lower case';
+  emailField.classList.add('invalid_form');
+  return false;
 }
 
 hamburger.addEventListener('click', showMenu);

@@ -22,7 +22,8 @@ a {
   color: inherit;
 }
 
-p.introduction {
+p.introduction,
+small {
   color: #1a2236;
   font-family: Poppins, sans-serif;
   font-size: 14px;
@@ -33,6 +34,10 @@ p.introduction {
   text-align: left;
   width: 100%;
   margin-bottom: 40px;
+}
+
+small {
+  color: red;
 }
 
 button.primary-dark {
@@ -396,6 +401,10 @@ h2.get-started {
   letter-spacing: 0;
   text-align: left;
   width: 100%;
+}
+
+.invalid_form {
+  border-color: red;
 }
 
 @media screen and (min-width: 992px) {
