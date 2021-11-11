@@ -49,6 +49,12 @@ const projects = [
   },
 ];
 
+let formData = {
+  name: '',
+  email: '',
+  comment: '',
+};
+
 let n = projects.length;
 const main = document.querySelector('#project-title');
 const formWarning = document.querySelector('small');
@@ -152,3 +158,41 @@ hamburger.addEventListener('click', showMenu);
 crossButton.forEach((item) => item.addEventListener('click', hideMenu));
 modalcross.addEventListener('click', hidePopup);
 projects.reverse().forEach((project) => createCard(project));
+
+const input = document.querySelector('.input');
+const emailField = document.querySelector('#email');
+const textArea = document.querySelector('textarea');
+
+function getFormData() {
+  if(!localStorage.getItem('saveData')) {
+    populateStorage();
+  } else {
+    const localData = JSON.parse(localStorage.saveData);
+    input.value = localData.name;
+    emailField.value = localData.email;
+    textArea.value = localData.comment;
+  }
+  
+}
+
+function saveFormData() {
+  const saveData = JSON.stringify(formData);
+  localStorage.saveData=saveData;
+}
+
+input.addEventListener('change', (event) => {
+  formData.name = input.value;
+  saveFormData();
+});
+
+emailField.addEventListener('change', (event) => {
+  formData.email = emailField.value;
+  saveFormData();
+});
+
+textArea.addEventListener('change', (event) => {
+  formData.comment = textArea.value;
+  saveFormData();
+});
+
+getFormData();
