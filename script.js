@@ -61,7 +61,7 @@ const formWarning = document.querySelector('small');
 
 function createCard(project) {
   const card = document.createElement('div');
-  card.className = `project item${n}`;
+  card.className = `project item${index}`;
   n -= 1;
   const projectimg = document.createElement('img');
   projectimg.className = 'project-image';
