@@ -173,7 +173,7 @@ function getFormData() {
 }
 
 function saveFormData() {
-  const saveData = JSON.stringify(formData);
+  const saveData = JSON.parse(formData);
   localStorage.saveData = saveData;
 }
 
