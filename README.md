@@ -5,16 +5,17 @@ A portfolio of all the projects I will create during my time as a student at Mic
 - Project 3: Contact form ✅
 - Project 4: Desktop version ✅
 - Project 5: Application deploy ✅
-- Project 6: Evaluate accessibility 
-- Project 7: Mobile menu 
-- Project 8: Details modal 
-- Project 9: Validate contact form 
-- Project 10: Preserve data in the browser
+- Project 6: Evaluate accessibility ✅
+- Project 7: Mobile menu ✅
+- Project 8: Details modal ✅
+- Project 9: Validate contact form ✅
+- Project 10: Preserve data in the browser ✅
 
 ## Buit With
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo
 
