@@ -17,7 +17,7 @@ A portfolio of all the projects I will create during my time as a student at Mic
 - CSS
 - Javascript
 
-## Live Demo
+## The Live Demo
 
 [My Portfolio](https://crclothier.github.io/My-Portfolio-Website/)
 
